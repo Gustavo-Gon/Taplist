@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-taplist-dev-fa007-authRole",
+      "UnauthRoleArn": "arn:aws:iam::459109751790:role/amplify-taplist-dev-fa007-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::459109751790:role/amplify-taplist-dev-fa007-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-taplist-dev-fa007-deployment",
+      "UnauthRoleName": "amplify-taplist-dev-fa007-unauthRole",
+      "StackName": "amplify-taplist-dev-fa007",
+      "StackId": "arn:aws:cloudformation:us-west-2:459109751790:stack/amplify-taplist-dev-fa007/0eaec9a0-553c-11f0-b5db-02a61f2935c5",
+      "AmplifyAppId": "d12qog7mt762h6"
+    }
+  }
+}
