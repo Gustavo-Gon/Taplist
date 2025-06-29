@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E94D6E782E11F01700CD2658 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E94D6E772E11F01000CD2658 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E94D6E592E11EE9E00CD2658 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		E94D6E482E11EE9D00CD2658 /* Taplist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taplist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94D6E582E11EE9E00CD2658 /* TaplistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaplistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94D6E622E11EE9E00CD2658 /* TaplistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaplistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94D6E772E11F01000CD2658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		E94D6E3F2E11EE9C00CD2658 = {
 			isa = PBXGroup;
 			children = (
+				E94D6E772E11F01000CD2658 /* README.md */,
 				E94D6E4A2E11EE9D00CD2658 /* Taplist */,
 				E94D6E5B2E11EE9E00CD2658 /* TaplistTests */,
 				E94D6E652E11EE9E00CD2658 /* TaplistUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94D6E782E11F01700CD2658 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
