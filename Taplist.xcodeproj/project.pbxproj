@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		692FBA2C444E764C428F89E9 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA860A676379558D74392EE /* awsconfiguration.json */; };
+		E92A50C82E12035600321C3C /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = E92A50C72E12035600321C3C /* AWSCognitoAuthPlugin */; };
 		E94D6E9B2E11FD4000CD2658 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = E94D6E9A2E11FD4000CD2658 /* Amplify */; };
 		F9EFB659A954E669F1F9A95C /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A570EDAAD3A6DC246635ADF /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
@@ -37,9 +38,22 @@
 		E94D6E622E11EE9E00CD2658 /* TaplistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaplistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E92A50CA2E12036C00321C3C /* Exceptions for "Taplist" folder in "Taplist" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E94D6E472E11EE9D00CD2658 /* Taplist */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E94D6E4A2E11EE9D00CD2658 /* Taplist */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E92A50CA2E12036C00321C3C /* Exceptions for "Taplist" folder in "Taplist" target */,
+			);
 			path = Taplist;
 			sourceTree = "<group>";
 		};
@@ -61,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94D6E9B2E11FD4000CD2658 /* Amplify in Frameworks */,
+				E92A50C82E12035600321C3C /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,13 @@
 			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
+		E92A50C62E12035600321C3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E94D6E3F2E11EE9C00CD2658 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +120,7 @@
 				E94D6E652E11EE9E00CD2658 /* TaplistUITests */,
 				E94D6E492E11EE9D00CD2658 /* Products */,
 				1FCE49EFBE4594A3D9090175 /* AmplifyConfig */,
+				E92A50C62E12035600321C3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +155,7 @@
 			name = Taplist;
 			packageProductDependencies = (
 				E94D6E9A2E11FD4000CD2658 /* Amplify */,
+				E92A50C72E12035600321C3C /* AWSCognitoAuthPlugin */,
 			);
 			productName = Taplist;
 			productReference = E94D6E482E11EE9D00CD2658 /* Taplist.app */;
@@ -424,6 +448,7 @@
 				DEVELOPMENT_TEAM = 622ZCXDBLB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taplist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +478,7 @@
 				DEVELOPMENT_TEAM = 622ZCXDBLB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taplist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -596,6 +622,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E92A50C72E12035600321C3C /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E94D6E992E11FD4000CD2658 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
 		E94D6E9A2E11FD4000CD2658 /* Amplify */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E94D6E992E11FD4000CD2658 /* XCRemoteSwiftPackageReference "amplify-swift" */;

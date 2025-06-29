@@ -6,12 +6,14 @@
 //
 
 import Amplify
+import AWSCognitoAuthPlugin
 import SwiftUI
 
 @main
 struct TaplistApp: App {
     init() {
         do {
+            try Amplify.add(plugin: AWSCognitoAuthPlugin())
             try Amplify.configure()
             print("Initialized Amplify");
         } catch {
@@ -21,7 +23,8 @@ struct TaplistApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NotesView()
+            LandingView()
+                .environmentObject(AuthenticationService())
         }
     }
 }

@@ -10,6 +10,11 @@
       "StackName": "amplify-taplist-dev-fa007",
       "StackId": "arn:aws:cloudformation:us-west-2:459109751790:stack/amplify-taplist-dev-fa007/0eaec9a0-553c-11f0-b5db-02a61f2935c5",
       "AmplifyAppId": "d12qog7mt762h6"
+    },
+    "categories": {
+      "auth": {
+        "taplista38f268a": {}
+      }
     }
   }
 }
